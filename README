@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1919
+
+This is a fork of the default c.vim syntax file that provides highlighting of C library functions and constants.
+
+The patch to c.vim is very minor (just add one container class for library functions / constants), so your usual syntax highlighting in C will be preserved.
+
+It contains options that let you control how much, and which libraries you want highlighted.
+
+Currently, the only libraries supported are "glibc" and "xlib". But it comes with instructions on how to add your own (project specific, or other) libraries. Feel free to add support for other standard libraries and send them to me :).
